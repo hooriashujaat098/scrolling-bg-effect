@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-img{
+    width: 100%;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1770936997277-1c5732085160?auto=format&fit=crop&q=80");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    padding: 100px;
+    background: #000;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+@media (max-width: 500px) {
+    .container{
+        padding: 10px;
+    }
+}
